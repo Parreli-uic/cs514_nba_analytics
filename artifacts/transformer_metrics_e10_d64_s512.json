@@ -1,0 +1,23 @@
+{
+  "model_type": "small_transformer",
+  "train_rows": 20392,
+  "test_rows": 5099,
+  "mae": 5.056003093719482,
+  "rmse": 6.512172698974609,
+  "device": "cuda",
+  "epochs": 10,
+  "batch_size": 64,
+  "d_model": 64,
+  "nhead": 4,
+  "num_layers": 2,
+  "ff_dim": 128,
+  "dropout": 0.1,
+  "max_seq_len": 512,
+  "action_vocab_size": 17,
+  "subtype_vocab_size": 51,
+  "context_dim": 9,
+  "train_date_min": "2025-10-23 00:00:00",
+  "train_date_max": "2026-03-10 00:00:00",
+  "test_date_min": "2026-03-10 00:00:00",
+  "test_date_max": "2026-04-10 00:00:00"
+}

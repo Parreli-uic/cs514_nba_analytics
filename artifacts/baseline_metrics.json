@@ -1,0 +1,13 @@
+{
+  "model_type": "xgboost",
+  "train_rows": 20855,
+  "test_rows": 5214,
+  "feature_count_numeric": 39,
+  "feature_count_categorical": 3,
+  "mae": 4.926876724943788,
+  "rmse": 6.43454947533212,
+  "train_date_min": "2025-10-21 00:00:00",
+  "train_date_max": "2026-03-10 00:00:00",
+  "test_date_min": "2026-03-10 00:00:00",
+  "test_date_max": "2026-04-10 00:00:00"
+}
