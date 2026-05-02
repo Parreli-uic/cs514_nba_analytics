@@ -17,7 +17,11 @@ venv/
 /data/raw/**
 !/data/raw/**/.gitkeep
 !/data/interim/.gitkeep
-/data/processed/**
+/dat
+
+# Large data files
+data/processed/event_sequences_next_game_points_2025-26_regular_season.parquet
+data/processed/possession_sequences_next_game_points_2025-26_regular_season.parqueta/processed/**
 !/data/processed/.gitkeep
 
 # Notebooks
